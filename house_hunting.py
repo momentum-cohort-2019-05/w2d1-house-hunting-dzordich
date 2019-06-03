@@ -1,9 +1,9 @@
 annual_salary = int(input("What is your annual salary? "))
 portion_saved = float(input("What percent of your annual salary will be saved? "))
 total_cost = int(input("How much does your dream home cost? "))
-portion_down_payment = 0.25 * total_cost
+portion_down_payment = total_cost * float(input("What percentage of the total cost of the house do you need for the down payment? "))
 current_savings = 0
-r = 0.04
+r = float(input("What is your expected annual rate of return? "))
 num_months = 0
 
 
